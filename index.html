@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./icons/css/all.min.css">
+    <title>Hallo zusammen</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container container-sm">
+      <form class="form">
+      <h1 class="distance_title">How will go first?</h1>
+
+        <label class="form_label">Enter the distance:</label>
+          <input name="give_value" type="number" class="form-control mt-3 mb-3">
+          <span class="warning"></span>
+          <button type="submit" class="btn btn-light">Calculate</button>
+        </input>
+    </form>
+    <br>
+    <div class="form-cards d-flex justify-content-between">
+      <div class=" card p-5">
+        <i class="fa-solid fa-person icon"></i>
+        <div class="walk_card_desc">
+          <span>On Foot</span>
+          <br>
+          <span class="walk_result"></span>
+        </div>
+        </div>
+      <div class="card p-5">
+        <i class="fa-solid fa-bicycle icon"></i>
+        <div class="bike_card_desc">
+          <span>By Bike</span>
+          <br>
+          <span class="bike_result"></span>
+        </div>
+      </div>
+      <div class="card p-5">
+        <i class="fa-solid fa-car icon"></i>
+        <div class="car_card_desc">
+
+        <span>By Car</span>
+        <br>
+        <span class="car_result"></span>
+      </div></div>
+      <div class="card p-5">
+        <i class="fa-solid fa-plane icon"></i>
+        <div class="plane_card_desc">
+        <span>By Plane</span>
+        <br>
+        <span class="plane_result"></span>
+      </div>
+    </div>
+    </div>
+  </div>
+  </body>
+  <script src="./js/style.js"></script>
+</html>
